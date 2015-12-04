@@ -1,0 +1,455 @@
+#annoApp * {
+	border: 0px;
+	margin: 0px;		
+	padding: 0px;
+    font-size: 12px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#annoApp {
+	width: 1100px;
+	height: 520px;
+	margin: 0px auto;
+	background-color: white;
+}
+#annoApp .glyphicon {
+    font-family: Glyphicons Halflings;
+}
+#annoApp .annotationBoard_clearFloat {
+	clear: both;
+}
+#annoApp ul {
+	list-style-type: none;
+}
+#annotationBoard_pageHeader {
+	font-weight: bold;
+	font-size: 1.8em !important;
+	background-color: #545454;
+    padding: 25px 25px 25px 25px;
+	height: 80px;
+	border-bottom: 1px solid rgb(146, 141, 141);
+	width: auto;
+	float: none;
+    text-align: right;
+}
+ #annotationBoard_pageHeader .annotationBoard_logo {
+    position: absolute;
+    right: 45px;
+}
+ #annotationBoard_pageHeader .annotationBoard_boardName {
+    font-size: 18px !important;
+    color: #E1E2E2;    
+    letter-spacing: 2px;
+}
+ #annotationBoard_pageLeftSide {
+	float: left;	
+    width: 60px;
+	height: 440px;
+	background-color: #545454;
+}
+ #annotationBoard_pageRightSide {
+	float: left;	
+    width: 1040px;
+	height: 440px;
+	background-color: #EBEBEB;
+}
+ #annotationBoard_pageMessages {
+	position: relative;
+	text-align: center;
+	top: 65px;
+	color: #F5AA3B;
+	font-weight: bold;
+}
+  #annotationBoard_pageLeftSide .annotationBoard_menuItem_MouseOver,
+ #annotationBoard_pageLeftSide .annotationBoard_menuItem_Clicked {
+	background-color: #F7A11A;
+	color: white;
+}
+ #annotationBoard_pageLeftSide div * {
+    text-align: center !important;
+    font-size: 26px !important;
+}
+ #annotationBoard_pageLeftSide div {
+	background-color: #545454;
+	font-weight: bold;
+	padding: 10px 0px 10px 5px;
+	color: #E1E2E2;
+	cursor: pointer;
+	font-size: 13px;
+	letter-spacing: 1px;
+    text-align: center;
+}
+ #annotationBoard_pageRightSide div {
+	background-color: #EBEBEB;
+}
+#annoApp .annotationBoard_AnnoSetItemRow_MouseOver {
+	background-color: #FFB94B;
+    color: white;
+	cursor: pointer;
+}
+ .hideElement {
+	display: none !important;
+}
+ #annotationBoard_AnnotationSetItemView {
+	overflow-y: auto;
+	height: 420px;
+	padding: 10px 10px;
+}
+ #annotationBoard_AnnotationSetItemView  div {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+ #annotationBoard_AnnotationSetItemView span, 
+ #annotationBoard_AnnotationSetItemView input,  
+ #annotationBoard_AnnotationSetItemView select {
+	margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ #annotationBoard_AnnotationSetItemView input {
+	padding: 5px 5px;
+    font-weight: normal !important; 
+}
+ #annotationBoard_AnnotationSetItemView select {
+	height: 25px;
+	width: 125px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_AnnotationSetDisplayOrderContainer {
+	margin-top: 5px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_AnnotationSetDisplayOrder {
+	width: 50px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_AnnotationSetName {
+	width: 945px;
+	display: block;
+	margin-top: 10px;
+	padding: 15px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationAssignmentButton {
+	color: rgb(243, 242, 242);
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.35);
+	background-color: #545454;
+	padding: 8px;
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0);
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 12px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationAssignmentQuickButton {
+    padding-left: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: normal !important;
+    padding-right: 15px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationsTableContainer {
+	color: #222222;
+	position: relative;
+	background-color: white;
+	z-index: 9999;
+	height: 110px;
+	width: 945px;
+	overflow-y: auto;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationsTable {
+	background-color: white;
+	width: 100%;
+	color: #222222;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationsTable td {
+    color: inherit !important;
+	padding: 10px;
+	border-bottom: 1px solid #E0DFDF;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationReadColumn,
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationEditableColumn {
+	width: 15%;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_OrganizationRowHover {
+	background-color: #FFB94B;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_SettingsContainer {
+	height: 80px;
+	overflow-y: auto;
+	padding: 5px 0px;
+    clear: both;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_SettingsContainer li {
+	margin-bottom: 3px; 
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_HomesSelectionLabel {
+    padding: 7px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_HomesSelection {
+	display: block;
+	width: 945px;
+	margin-top: 12px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_AnnotationItemName {
+	width: 230px;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_AnnotationItemStartDate, 
+ #annotationBoard_AnnotationSetItemView .itemModule_AnnotationItemEndDate {
+	width: 10%;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_SaveButton, 
+ #annotationBoard_AnnotationSetItemView .itemModule_CloseButton, 
+ #annotationBoard_AnnotationSetItemView .itemModule_DeleteButton {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 8px;
+	background-color: #545454;
+	color: whitesmoke;
+	float: left;
+	font-size: 20px;
+	box-shadow: 0 2px 3px rgba(17, 17, 16, 0.19);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 80px;
+	text-align: center;
+}
+ #annotationBoard_AnnotationSetItemView .itemModule_MoveUpButton, 
+ #annotationBoard_AnnotationSetItemView .itemModule_MoveDownButton, 
+ #annotationBoard_AnnotationSetItemView .itemModule_AddButton, 
+ #annotationBoard_AnnotationSetItemView .itemModule_RemoveButton {
+	cursor: pointer;
+	color: #ECECEC;
+	padding: 1px 8px;
+	font-size: 12px;
+	box-shadow: 0 2px 3px rgba(17, 17, 16, 0.19);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_AnnotationSetItemContainer {
+	border-bottom: 1px solid #E0DFDF;
+	padding: 0.8em 0.8em;
+	height: 55px;
+	overflow: hidden;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_TabsContainer {
+	float: left;
+	border-right: 1px solid #E0DFDF;
+	overflow-y: auto;
+	width: 250px;
+	height: 440px;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_Tab {
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	display: block !important;
+    border-bottom: 1px solid #E0DFDF;
+    font-size: 14px;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_MouseOverTab, 
+ #annotationBoard_manageAnnotationsView .manageModule_ActiveTab {
+	background-color: #FFB94B;
+	color: white;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_ContentContainer {
+    height: 440px;
+	overflow-y: auto;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_AnnotationSetItemContainer p {
+	margin: 2px 0px;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_AnnotationSetItemContainer span {
+	margin-right: 10px;
+}
+ #annotationBoard_manageAnnotationsView .noItemFound {
+	padding: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_AnnotationSetRid {
+	display: none !important;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_AnnotationSetName {
+    float: left;
+    width: 500px;
+    cursor: pointer;
+    overflow: hidden;    
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_ButtonsContainer {
+    width: 30px;
+    float: right;
+    top: -15px;    
+}
+ #annotationBoard_manageAnnotationsView .manageModule_ButtonsContainer * {
+	margin-right: 7px;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_AnnotationSetDisplayOrder {
+    display: inline;
+    height: 27px;
+	width: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 6px;
+	margin-right: 10px;
+	background-color: white;
+}
+ #annotationBoard_manageAnnotationsView .manageModule_DeleteButton {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 8px;
+	background-color: #545454;
+	color: #ECECEC;
+	position: relative;
+	font-size: 11px;
+	box-shadow: 0 2px 3px rgba(17, 17, 16, 0.19);
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+ #annotationBoard_searchAnnotationsView .searchModule_SearchBarContainer {
+	padding: 15px 20px 15px 40px;
+	border-bottom: 2px solid rgb(158, 154, 154);
+}
+ #annotationBoard_searchAnnotationsView .searchModule_SearchTextBox {
+    display: inline;
+	width: 865px;
+	height: 38px;
+	padding: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_SearchButton {
+    font-size: 20px;
+	color: rgb(243, 242, 242);
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.35);
+	display: block;
+	float: right;
+	left: -25px;
+	background-color: #545454;
+	position: relative;
+	padding: 8px 20px 10px 20px;
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0);
+	box-shadow: 0 2px 3px rgba(17, 17, 16, 0.19);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_SearchTip {
+    margin-top: 10px;  
+}
+ #annotationBoard_searchAnnotationsView .searchModule_SearchResultContainer {
+	overflow-y: auto;
+	height: 325px;
+	width: 100%;
+}
+ #annotationBoard_searchAnnotationsView .noItemFound {
+	padding: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_AnnotationSetItemContainer {
+	border-bottom: 1px solid #E0DFDF;
+	padding: 0.8em 0.8em;
+	height: 55px;
+	overflow: hidden;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_AnnotationSetRid {
+	display: none !important;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_AnnotationSetName {
+    float: left;
+	width: 750px;
+    font-weight: bold;
+	font-size: 14px;
+    padding-top: 10px;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_ButtonsContainer {
+    width: 30px;
+    float: right;
+    top: -15px;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_ButtonsContainer * {
+	margin-right: 7px;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_AnnotationSetDisplayOrder {
+    display: inline;
+    height: 27px;
+	width: 40px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 8px;
+	margin-right: 10px;
+	background-color: white;
+}
+ #annotationBoard_searchAnnotationsView .searchModule_DeleteButton {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 8px;
+	background-color: #545454;
+	color: #ECECEC;
+	position: relative;
+	font-size: 11px;
+	box-shadow: 0 2px 3px rgba(17, 17, 16, 0.19);
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+ #annotationBoard_AnnotationSetItemView .annotationBoard_Buttons_MouseOver,
+ #annotationBoard_manageAnnotationsView .annotationBoard_Buttons_MouseOver,
+ #annotationBoard_searchAnnotationsView .annotationBoard_Buttons_MouseOver {
+	background-color: #FFB94B;
+	color: whitesmoke;
+	cursor: pointer;
+}
+ .displayOrderWidget-container {
+    width: 220px;
+    top: 10px !important;    
+    float: left !important;
+    position: relative !important;    
+    background-color: inherit !important;
+    cursor: pointer;
+}
+ .displayOrderWidget-container span {
+    padding-right: 5px !important;
+}
+ .displayOrderWidget-editableButton {  
+    font-size: 14px !important;
+}
+.displayOrderWidget-editDialogInput {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px !important;
+    display: inline !important;
+}
+.displayOrderWidget-editDialogSaveButton {
+    margin-right: 10px;
+    width: 50px !important;    
+    display: inline !important;
+}
+#annoApp #ui-datepicker-div {
+   clip: auto !important
+}
+#annoApp .ui-datepicker th, #annoApp .ui-datepicker td {
+	color: #222222 !important;										
+}
+.annotationsets-selection-dialogbox {
+	font-size: 13px;
+    z-index: 999999 !important;
+}
+.annotationsets-selection-dialogbox .item-name,
+.annotationsets-selection-dialogbox .item-option-checkbox-container,
+.annotationsets-selection-dialogbox .item-option-checkbox {
+	cursor: pointer !important;
+}
