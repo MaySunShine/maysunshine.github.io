@@ -3209,6 +3209,7 @@ input[type=radio].ace @{lbl}::before {
   /* bigger tab buttons */
   /* bigger tab buttons */
   /* background for tab links */
+  /* add more */
 }
 .skin-4 .ace-spinner {
   display: inline-block;
@@ -8140,4 +8141,10 @@ span.skin-4 .input-icon {
 .skin-4 .accordion-style2.panel-group .accordion-style2.panel-group .panel .panel-heading {
   padding-top: 0;
   padding-bottom: 0;
+}
+.skin-4 .input-icon .ace-icon {
+  top: 3px !important;
+}
+.skin-4 .inline {
+  display: inline;
 }
