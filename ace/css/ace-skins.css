@@ -3210,7 +3210,6 @@ input[type=radio].ace @{lbl}::before {
   /* bigger tab buttons */
   /* background for tab links */
   /* search box */
-  /* add more */
 }
 .skin-4 .ace-spinner {
   display: inline-block;
@@ -3336,7 +3335,7 @@ input[type=radio].ace @{lbl}::before {
 .skin-4 .steps li.complete:before,
 .skin-4 .steps li.active .step,
 .skin-4 .steps li.complete .step {
-  border-color: #ee5f5b;
+  border-color: #006cb3;
 }
 .skin-4 .steps li.complete .step {
   cursor: default;
@@ -3368,10 +3367,10 @@ input[type=radio].ace @{lbl}::before {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  border-color: #f49592;
+  border-color: #0091f0;
 }
 .skin-4 .steps li.complete:hover:before {
-  border-color: #f49592;
+  border-color: #0091f0;
 }
 .skin-4 .steps li .title {
   display: block;
@@ -3386,7 +3385,7 @@ input[type=radio].ace @{lbl}::before {
 }
 .skin-4 .steps li.complete .title,
 .skin-4 .steps li.active .title {
-  color: #ee5f5b;
+  color: #55b2ff;
 }
 .skin-4 .step-content {
   position: relative;
@@ -4061,7 +4060,7 @@ label .skin-4 input[type=radio].ace {
 .skin-4 input[type=checkbox].ace.ace-switch.ace-switch-4:checked + .lbl::before,
 .skin-4 input[type=checkbox].ace.ace-switch.ace-switch-5:checked + .lbl::before {
   text-indent: 9px;
-  background-color: #468FCC;
+  background-color: #006cb3;
   border-color: #468FCC;
 }
 .skin-4 input[type=checkbox].ace.ace-switch.ace-switch-4:checked + .lbl::after,
@@ -4860,7 +4859,7 @@ span.skin-4 .input-icon {
   padding: 0 3px;
   z-index: 2;
   position: absolute;
-  top: 16px;
+  top: 1px;
   bottom: 1px;
   left: 3px;
   line-height: 30px;
