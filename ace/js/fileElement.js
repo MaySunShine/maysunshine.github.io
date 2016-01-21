@@ -1,4 +1,3 @@
-if (typeof jQuery === 'undefined') { throw new Error('Ace\'s JavaScript requires jQuery') }
 /**
  <b>Ace file input element</b>. Custom, simple file input element to style browser's default file input.
 */
